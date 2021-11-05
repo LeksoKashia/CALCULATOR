@@ -56,6 +56,10 @@ class MainActivity : AppCompatActivity() {
             "-" -> resultTextView.text = (operand + secOperand).toString()
             "*" -> resultTextView.text = (operand + secOperand).toString()
             "/" -> resultTextView.text = (operand + secOperand).toString()
+            "%" -> resultTextView.text = ( (operand / 100) * secOperand).toString()
+            "." -> resultTextView.text = "."
+
+
         }
 
 
